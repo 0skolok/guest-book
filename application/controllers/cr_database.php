@@ -74,7 +74,7 @@ class Cr_Database extends CI_Controller {
             $fields = array(
                 'user_ip' => '127.0.0.1',
                 'user_browser' => 'Chrome 50.0.2661.75',
-                'created_date' => date('Y-m-d H:i:s', rand(1467311467, 1469903467)),
+                'created_date' => date('Y-m-d H:i:s', rand(1427102032, 1467311467)),
                 'username' => $username,
                 'e_mail' => $email,
                 'text' => $this->text($i),

@@ -71,27 +71,27 @@ class ajax extends CI_Controller {
 		}
 	}
 
-	public function upd_ajax($user, $eml)
-	{
+	// public function upd_ajax($user, $eml)
+	// {
 
 
-		$dat = date('d.m.Y', strtotime($result[0]['date']));
+	// 	$dat = date('d.m.Y', strtotime($result[0]['date']));
 
-		$str = "<li id=\"med_{$result[0]['id']}\" class=\"media\">
-                        <div class=\"media-body\">
-                            <div class=\"footer-comment\">
-                                <a href=\"#\" id=\"bt-{$result[0]['id']}\" class=\"btn btn-danger btn-xs delbtn\">Удалить</a>
-                            </div>
-                            <div class=\"media-heading\">
-                                <div class=\"author\">{$result[0]['username']}</div>
-                                <div class=\"metadata\">
-                                    <span class=\"date\">{$dat}</span>
-                                </div>
-                            </div>
-                            <div class=\"media-text text-justify\">{$result[0]['text']}</div>
-                            <hr>
-                        </div>
-                    </li>";
-		return $str;
-	}
+	// 	$str = "<li id=\"med_{$result[0]['id']}\" class=\"media\">
+ //                        <div class=\"media-body\">
+ //                            <div class=\"footer-comment\">
+ //                                <a href=\"#\" id=\"bt-{$result[0]['id']}\" class=\"btn btn-danger btn-xs delbtn\">Удалить</a>
+ //                            </div>
+ //                            <div class=\"media-heading\">
+ //                                <div class=\"author\">{$result[0]['username']}</div>
+ //                                <div class=\"metadata\">
+ //                                    <span class=\"date\">{$dat}</span>
+ //                                </div>
+ //                            </div>
+ //                            <div class=\"media-text text-justify\">{$result[0]['text']}</div>
+ //                            <hr>
+ //                        </div>
+ //                    </li>";
+	// 	return $str;
+	// }
 }
