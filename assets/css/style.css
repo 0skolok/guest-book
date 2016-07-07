@@ -1,0 +1,59 @@
+html {
+    font-size: 16px;
+}
+.media-body .author {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+}
+.media-body .metadata {
+    display: block;
+    color: #777;
+    font-size: .8125rem;
+}
+.media-text {
+    margin-bottom: 0.25rem;
+}
+.title-comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1rem;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.media-left img {
+    width: 50px;
+}
+.btn{
+    float: right;
+}
+.nav_bar{
+    position: fixed;
+    width: 100%;
+}
+.wrapper_def{
+    padding-top: 50px;
+}
+.email_f {
+    width: 250px;
+}
+.name_f {
+    width: 200px;
+}
+.email_d, .name_d{
+    display: inline-block;
+    margin-right: 20px;
+}
+.text_d textarea{
+    height: 80px;
+}
+#bottom_y{
+    margin-bottom: 100px;
+}
+.error{
+    display: inline-block;
+    margin-left: 100px;
+}
