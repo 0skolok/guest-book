@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $.ajax({
                 type: 'POST',
-                url: 'http://guest-book:81/ajax/create_ajax',
+                url: 'http://guest-book/ajax/create_ajax',
                 data: {username : username, email: email, message: mess},
                 error: function(req, text, error) {
                     alert('Ошибка AJAX: ' + text + ' | ' + error);

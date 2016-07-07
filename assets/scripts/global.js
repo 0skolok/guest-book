@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         jQuery.ajax({
             type: "POST", // HTTP метод  POST или GET
-            url: "http://guest-book:81/ajax/delete_ajax", //url-адрес, по которому будет отправлен запрос
+            url: "http://guest-book/ajax/delete_ajax", //url-адрес, по которому будет отправлен запрос
             dataType: "text", // Тип данных
             data:myData, //post переменные
             success:function(response){
